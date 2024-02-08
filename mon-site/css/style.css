@@ -1,0 +1,34 @@
+
+#groupe {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#groupe div {
+    height: 45px;
+    width: 45px;
+    background-color: aquamarine;
+}
+
+#groupe>div:first-child {
+    background-color: black;
+}
+
+#groupe>div:last-child {
+    background-color: green;
+}
+
+#groupe>div:nth-child(2) {
+    background-color: red;
+}
+
+#groupe>div:nth-child(3) {
+    background-color: blue;
+}
+
+/* #groupe>div:nth-child(2):hover {
+    background-color: aqua;
+    font-size: 2em;
+    cursor: pointer;
+} */

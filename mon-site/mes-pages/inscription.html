@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrire</title>
+</head>
+
+<body>
+    <!-- <form action="./soumission.html" method="POST" id="mon-formulaire"> -->
+    <form action="http://m2i.nehemie.dev/echo/post" method="POST" id="mon-formulaire">
+
+        <!-- Nom, email, mot de passe, Sex, Abonnement, Button soumission -->
+        <label for="">Nom</label>
+        <input type="text" placeholder="Entrez votre nom ici" name="nom" id="nom" required>
+        <br>
+
+        <label for="">Prenom</label>
+        <input type="text" placeholder="Entrez votre prenom ici" name="prenom" id="prenom" required>
+        <br>
+
+        <label for="email">Address Email</label>
+        <input type="email" name="email" required>
+        <br>
+
+        <label for="mot-de-passe">Mot de passe</label>
+        <input type="password" name="mot-de-passe" id="mot-de-passe">
+        <br>
+
+        <label>Votre sex</label><br>
+        <label for="sex"><input type="radio" name="sex" id="" value="Femme">Femme</label><br>
+        <label for="sex"><input type="radio" name="sex" id="" value="Homme">Homme</label><br>
+        <label for="sex"><input type="radio" name="sex" id="" value="Autre">Autre</label><br>
+        <!-- <select name="sex-select" id="">
+            <option>Choisissez votre sex</option>
+            <option value="Femme">Femme</option>
+            <option value="Homme">Homme</option>
+            <option value="Autre">Autre</option>
+        </select> -->
+
+        <br>
+        <button type="reset">Tout Effacer</button>
+        <button type="submit">Soumettre</button>
+    </form>
+</body>
+
+</html>
